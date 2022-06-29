@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>js basic</title>
+        <script src="index.js" defer></script>
+    </head>
+    <style>
+        #grand{
+            border: 2px solid red;
+            padding: 25px;
+            text-align: center;
+            margin: 20px;
+        }
+        #parent{
+            border: 2px solid green;
+            padding:25px;
+            margin:20px;
+        }
+        #child{
+            border:2px solid black;
+            padding: 25px;
+            margin:20px;
+        }
+    </style>
+    <body>
+        <p id="root">Hello honey</p>
+        <p class="para"></p>
+        <button onclick="myFunc">click me</button>
+        <button id="btn">event</button>
+        <div id="grand">Grand
+            <div id="parent">Parent
+                <div id="child">
+                   Child
+                </div>
+            </div>
+        </div>
+        </body>
+</html>
